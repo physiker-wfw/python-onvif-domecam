@@ -41,3 +41,6 @@ class MegapixelDomeCamera:
         p.PresetToken = presetToken
 
         self.__ptzService.GotoPreset(p)
+
+    def pztInfo(self):
+        return self.__ptzService.GetServiceCapabilities()
