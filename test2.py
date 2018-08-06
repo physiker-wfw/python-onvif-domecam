@@ -7,5 +7,5 @@ camera = MegapixelDomeCamera(config.host, config.port, config.user, config.passw
 print(camera.getRotationStatus())
 
 # print("getPositionPresets:",camera.getPositionPresets())
-print("GetNodes:",camera.getNodes())
-
+#print("GetNode:",camera.getNode())
+print("\n\n\ngetConfigurationOptions:",camera.getConfigurationOptions())
