@@ -3,8 +3,9 @@ from MegapixelDomeCamera import MegapixelDomeCamera
 
 import config
 
-camera = MegapixelDomeCamera(host, port, user, password)
+camera = MegapixelDomeCamera(config.host, config.port, config.user, config.password)
 print(camera.getRotationStatus())
 
-print(camera.pztInfo())
+# print("getPositionPresets:",camera.getPositionPresets())
+print("GetNodes:",camera.getNodes())
 

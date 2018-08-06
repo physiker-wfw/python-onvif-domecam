@@ -8,6 +8,13 @@
             "type": "shell",
             "command": "python test.py",
             "problemMatcher": []
+        },
+        {
+            "label": "Run interactively Python Script",
+            "type": "shell",
+            "command": "python -i test.py",
+            "problemMatcher": []
         }
+
     ]
 }
