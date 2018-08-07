@@ -58,3 +58,5 @@ docs/_build/
 # PyBuilder
 target/
 config.py
+wsdl/ONVIF-PTZ-Service-Spec-v1612.pdf
+wsdl/ONVIF-PTZ-Service-Spec-v221.pdf
